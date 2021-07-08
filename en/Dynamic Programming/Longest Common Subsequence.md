@@ -49,7 +49,7 @@ B 0 ? ? ? ?
 C 0 ? ? ? ?
 B 0 ? ? ? ?
 ```
-Now we will start to fill our table from 1st row. Since `S[1] = A` and `T[1] = B`, the `dp[1][1]` will be tha maximal value of `dp[0][1] = 0` and `dp[1][0] = 0`. So `dp[1][1] = 0`. But now `S[2] = B = T[1]`, so `dp[1][2] = dp[0][1] + 1 = 1`. `dp[1][3]` is `1` since `A != C` and we pick `max{dp[1][2], dp[0][3]}`. And `dp[1][4] = dp[0][3] + 1 = 1`.
+Now we will start to fill our table from 1st row. Since `S[1] = A` and `T[1] = B`, the `dp[1][1]` will be the maximal value of `dp[0][1] = 0` and `dp[1][0] = 0`. So `dp[1][1] = 0`. But now `S[2] = B = T[1]`, so `dp[1][2] = dp[0][1] + 1 = 1`. `dp[1][3]` is `1` since `A != C` and we pick `max{dp[1][2], dp[0][3]}`. And `dp[1][4] = dp[0][3] + 1 = 1`.
 ```
 # # A B C B
 # 0 0 0 0 0

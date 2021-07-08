@@ -42,7 +42,7 @@ Let's say we have 3 coin types `[1,2,3]` and we want to change for `7` cents. So
 ```
 4 ways to make 7 cents using value of 1 and 2. `{{1,1,1,1,1,1,1}, {1,1,1,1,1,2}, {1,1,1,2,2}, {1,2,2,2}}`
 
-* For the final iteration (3rd iteration), we take a coin that has a value of 3. Like before, now all the columns that can be devided by 3 will store another new way. And the final result will be like:
+* For the final iteration (3rd iteration), we take a coin that has a value of 3. Like before, now all the columns that can be divided by 3 will store another new way. And the final result will be like:
 ```
 [1, 1, 2, 3, 4, 5, 7, 8]
 ```
